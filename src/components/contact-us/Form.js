@@ -45,47 +45,47 @@ const Form = () => {
         setSubject("");
     };
     return (
-        <div className="py-20 container">
-            <div className=" md:grid grid-cols-2 items-center md:px-0 md:pt-0 gap-12 ">
+        <div className="container py-20">
+            <div className="items-center grid-cols-2 gap-12  md:grid md:px-0 md:pt-0">
                 <div className="flex-col space-y-16 max-w-[90%]">
-                    <div className="py-6 px-8  rounded-xl bg-white items-center shadow-md flex space-x-5 ">
+                    <div className="flex items-center px-8 py-6 space-x-5 bg-white shadow-md rounded-xl ">
                         <BiMapPin className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
                         <div>
-                            <p className=" font-bold text-lg pb-2">Address</p>
+                            <p className="pb-2 text-lg font-bold ">Address</p>
                             <p>
-                                9131 39 Ave NW Unit # 204, Edmonton, AB T6E 5Y2,
-                                dubai
+                                Office number 113, Palace towers, Silicon oasis,
+                                Dubai, UAE
                             </p>
                         </div>
                     </div>
-                    <div className="py-8 px-8  rounded-xl bg-white shadow-md items-center flex space-x-10">
+                    <div className="flex items-center px-8 py-8 space-x-10 bg-white shadow-md rounded-xl">
                         <BiPhoneCall className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
                         <div className="">
-                            <p className=" font-bold text-lg pb-2">
+                            <p className="pb-2 text-lg font-bold ">
                                 Phone Number
                             </p>
                             <p>9910190071</p>
                         </div>
                     </div>
 
-                    <div className="py-8 px-8  rounded-xl bg-white shadow-md items-center flex space-x-10">
+                    <div className="flex items-center px-8 py-8 space-x-10 bg-white shadow-md rounded-xl">
                         <BiMessage className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
                         <div className="">
-                            <p className=" font-bold text-lg pb-2">
+                            <p className="pb-2 text-lg font-bold ">
                                 Email Address
                             </p>
                             <p>info@digitalcappuccino.com</p>
                         </div>
                     </div>
                 </div>
-                <div className=" ">
-                    <div className=" border pt-10 px-8 shadow-md rounded-xl bg-white">
+                <div className="">
+                    <div className="px-8 pt-10 bg-white border shadow-md  rounded-xl">
                         {/* form start */}
                         <form className="md:pt-0 pt-7 ">
-                            <div className="space-y-4  py-8 text-sm">
+                            <div className="py-8 space-y-4 text-sm">
                                 <div class="w-full">
                                     <input
-                                        className="bg-transparent appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                                        className="w-full px-4 py-3 leading-tight text-gray-700 bg-transparent border-2 border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-primary"
                                         id="inline-full-name"
                                         name="name"
                                         value={name}
@@ -98,7 +98,7 @@ const Form = () => {
                                 </div>
                                 <div class="w-full">
                                     <input
-                                        className="bg-transparent appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                                        className="w-full px-4 py-3 leading-tight text-gray-700 bg-transparent border-2 border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-primary"
                                         id="inline-full-name"
                                         name="email"
                                         value={email}
@@ -112,7 +112,7 @@ const Form = () => {
                                 <div className="flex space-x-5">
                                     <div class="w-full">
                                         <input
-                                            className="bg-transparent appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                                            className="w-full px-4 py-3 leading-tight text-gray-700 bg-transparent border-2 border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-primary"
                                             id="inline-full-name"
                                             name="phone"
                                             value={phone}
@@ -125,7 +125,7 @@ const Form = () => {
                                     </div>
                                     <div class="w-full">
                                         <input
-                                            className="bg-transparent appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                                            className="w-full px-4 py-3 leading-tight text-gray-700 bg-transparent border-2 border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-primary"
                                             id="inline-full-name"
                                             name="subject"
                                             value={subject}
@@ -145,7 +145,7 @@ const Form = () => {
                                     onChange={(e) => setMessage(e.target.value)}
                                     id="mesage"
                                     placeholder="Write your message"
-                                    className="bg-priamry appearance-none border-2 border-gray-200 rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary"
+                                    className="w-full px-4 py-3 leading-tight text-gray-700 border-2 border-gray-200 rounded appearance-none bg-priamry focus:outline-none focus:bg-white focus:border-primary"
                                 />
                                 <div className="mx-auto text-center">
                                     <div className="flex justify-start pt-5 pb-10">

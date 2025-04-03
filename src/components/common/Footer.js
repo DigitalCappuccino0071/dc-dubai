@@ -30,9 +30,9 @@ const Footer = () => {
         },
     ];
     return (
-        <div className=" bg-white pt-20 md:px-0 px-5 border-t-2">
+        <div className="px-5 pt-20 bg-white border-t-2 md:px-0">
             <div className="container ">
-                <div className=" grid md:grid-cols-4  gap-6 justify-start pb-6">
+                <div className="grid justify-start gap-6 pb-6 md:grid-cols-4">
                     <div className="space-y-4">
                         <Link href="/">
                             <div>
@@ -43,20 +43,20 @@ const Footer = () => {
                                 />
                             </div>
                         </Link>
-                        <p className="text-base text-black text-justify  md:tracking-tight  tracking-tighter  md:leading-relaxed ">
+                        <p className="text-base tracking-tighter text-justify text-black md:tracking-tight md:leading-relaxed ">
                             From Strategy to Execution, Digital Cappuccino
                             Delivers Exceptional Results — Your Go-To Digital
                             Marketing Specialists in dubai{" "}
                         </p>
 
                         <div>
-                            <ul className="flex space-x-4  pt-3">
+                            <ul className="flex pt-3 space-x-4">
                                 {data.map((e, i) => (
                                     <li key={i} className="flex space-x-5">
                                         <Link
                                             href={e.href}
                                             target="_blank"
-                                            className="hover:scale-110 duration-200 w-8  rounded-full bg-black text-white p-2"
+                                            className="w-8 p-2 text-white duration-200 bg-black rounded-full hover:scale-110"
                                         >
                                             {e.icon}
                                         </Link>
@@ -66,20 +66,20 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="flex md:justify-center ">
-                        <div className="md:flex md:space-x-28 md:space-y-0 space-y-6">
+                        <div className="space-y-6 md:flex md:space-x-28 md:space-y-0">
                             <div>
                                 <div className="space-y-6">
-                                    <h2 className="text-xl font-semibold text-black capitalize underline underline-offset-8 decoration-primary">
+                                    <h2 className="text-xl font-semibold text-black underline capitalize underline-offset-8 decoration-primary">
                                         Quick Links
                                     </h2>
                                     <ul className="">
                                         <Link href="/">
-                                            <li className="text-base text-black  mt-2">
+                                            <li className="mt-2 text-base text-black">
                                                 <span className="">Home </span>
                                             </li>
                                         </Link>
                                         <Link href="/about-us">
-                                            <li className="text-base text-black  mt-2">
+                                            <li className="mt-2 text-base text-black">
                                                 <span className="">
                                                     About Us{" "}
                                                 </span>
@@ -87,7 +87,7 @@ const Footer = () => {
                                         </Link>
 
                                         <Link href="/web-development-company">
-                                            <li className="text-base text-black  mt-2">
+                                            <li className="mt-2 text-base text-black">
                                                 <span className="">
                                                     Services{" "}
                                                 </span>
@@ -95,7 +95,7 @@ const Footer = () => {
                                         </Link>
 
                                         <Link href="/contact-us">
-                                            <li className="text-base text-black  mt-2">
+                                            <li className="mt-2 text-base text-black">
                                                 <span className="">
                                                     Contact Us{" "}
                                                 </span>
@@ -108,12 +108,12 @@ const Footer = () => {
                     </div>
                     <div>
                         <div className="space-y-6">
-                            <h2 className="text-xl font-semibold text-black capitalize underline underline-offset-8 decoration-primary">
+                            <h2 className="text-xl font-semibold text-black underline capitalize underline-offset-8 decoration-primary">
                                 Support
                             </h2>
                             <ul className="">
                                 <Link href="/">
-                                    <li className="text-base text-black  mt-2">
+                                    <li className="mt-2 text-base text-black">
                                         <span className="">
                                             {" "}
                                             Terms & Conditions{" "}
@@ -121,7 +121,7 @@ const Footer = () => {
                                     </li>
                                 </Link>
                                 <Link href="/">
-                                    <li className="text-base text-black  mt-2">
+                                    <li className="mt-2 text-base text-black">
                                         <span className="">
                                             Privacy Policy{" "}
                                         </span>
@@ -132,7 +132,7 @@ const Footer = () => {
                     </div>
                     <div className="">
                         <div className="space-y-4">
-                            <h2 className="text-xl font-semibold text-black capitalize underline underline-offset-8 decoration-primary">
+                            <h2 className="text-xl font-semibold text-black underline capitalize underline-offset-8 decoration-primary">
                                 Information
                             </h2>
                             <div className="flex items-center space-x-2">
@@ -140,7 +140,7 @@ const Footer = () => {
                                     <FaPhoneAlt />
                                 </h2>
                                 <Link href="tel:9910190071">
-                                    <div className="text-base text-black  mt-1 flex items-center">
+                                    <div className="flex items-center mt-1 text-base text-black">
                                         <span className="">9910190071</span>
                                     </div>
                                 </Link>
@@ -162,10 +162,10 @@ const Footer = () => {
                                     <FaLocationDot />
                                 </h2>
                                 <Link href="#">
-                                    <div className="text-base text-black  mt-1 flex items-center">
+                                    <div className="flex items-center mt-1 text-base text-black">
                                         <span className="">
-                                            9131 39 Ave NW Unit # 204, Edmonton,
-                                            AB T6E 5Y2, dubai
+                                            Office number 113, Palace towers,
+                                            Silicon oasis, Dubai, UAE
                                         </span>
                                     </div>
                                 </Link>
@@ -174,11 +174,11 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className="h-[1px] bg-primary border-primary" />
-                <div className="text-center py-5 text-black text-base md:px-0 px-5">
+                <div className="px-5 py-5 text-base text-center text-black md:px-0">
                     <p>
                         {" "}
                         © Copyright ©2024
-                        <span className="font-semibold px-2">
+                        <span className="px-2 font-semibold">
                             Digital Cappuccino
                         </span>
                         . All Rights Reserved Copyright

@@ -177,8 +177,8 @@ const Contact = () => {
                                     className="fill-orange"
                                 />
                                 <p className="text-lg font-bold text-black ">
-                                    9131 39 Ave NW Unit # 204, Edmonton, AB T6E
-                                    5Y2, dubai{" "}
+                                    Office number 113, Palace towers, Silicon
+                                    oasis, Dubai, UAE{" "}
                                 </p>
                             </div>
                         </div>
