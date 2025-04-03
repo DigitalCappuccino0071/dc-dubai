@@ -46,7 +46,7 @@ const Form = () => {
     };
     return (
         <div className="container py-20">
-            <div className="items-center grid-cols-2 gap-12  md:grid md:px-0 md:pt-0">
+            <div className="items-center grid-cols-2 gap-12 md:grid md:px-0 md:pt-0">
                 <div className="flex-col space-y-16 max-w-[90%]">
                     <div className="flex items-center px-8 py-6 space-x-5 bg-white shadow-md rounded-xl ">
                         <BiMapPin className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
@@ -58,7 +58,10 @@ const Form = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex items-center px-8 py-8 space-x-10 bg-white shadow-md rounded-xl">
+                    <Link
+                        href="https://wa.me/9910199071"
+                        className="flex items-center px-8 py-8 space-x-10 bg-white shadow-md rounded-xl"
+                    >
                         <BiPhoneCall className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
                         <div className="">
                             <p className="pb-2 text-lg font-bold ">
@@ -66,7 +69,7 @@ const Form = () => {
                             </p>
                             <p>9910190071</p>
                         </div>
-                    </div>
+                    </Link>
 
                     <div className="flex items-center px-8 py-8 space-x-10 bg-white shadow-md rounded-xl">
                         <BiMessage className="bg-[#82cefd] text-white rounded-full p-2 w-10 h-10" />
@@ -79,7 +82,7 @@ const Form = () => {
                     </div>
                 </div>
                 <div className="">
-                    <div className="px-8 pt-10 bg-white border shadow-md  rounded-xl">
+                    <div className="px-8 pt-10 bg-white border shadow-md rounded-xl">
                         {/* form start */}
                         <form className="md:pt-0 pt-7 ">
                             <div className="py-8 space-y-4 text-sm">
