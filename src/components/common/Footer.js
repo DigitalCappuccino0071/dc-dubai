@@ -139,7 +139,7 @@ const Footer = () => {
                                 <h2 className="text-xl font-semibold text-black capitalize ">
                                     <FaPhoneAlt />
                                 </h2>
-                                <Link href="tel:9910190071">
+                                <Link href="https://wa.me/9910190071">
                                     <div className="flex items-center mt-1 text-base text-black">
                                         <span className="">9910190071</span>
                                     </div>
