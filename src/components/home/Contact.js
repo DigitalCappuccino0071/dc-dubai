@@ -162,6 +162,7 @@ const Contact = () => {
                   </p>
                 </div>
               </Link>
+              {/*  */}
               <div className="flex space-x-2 cursor-pointer ">
                 <GrMapLocation size={25} className="fill-orange" />
                 <p className="text-black font-bold text-lg ">
