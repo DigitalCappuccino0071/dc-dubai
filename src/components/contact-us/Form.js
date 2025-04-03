@@ -54,7 +54,7 @@ const Form = () => {
                             <p className=" font-bold text-lg pb-2">Address</p>
                             <p>
                                 9131 39 Ave NW Unit # 204, Edmonton, AB T6E 5Y2,
-                                Canada
+                                dubai
                             </p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Form = () => {
                             <p className=" font-bold text-lg pb-2">
                                 Phone Number
                             </p>
-                            <p>+1 (825) 889-7071</p>
+                            <p>9910190071</p>
                         </div>
                     </div>
 

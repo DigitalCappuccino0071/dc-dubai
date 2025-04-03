@@ -8,9 +8,9 @@ import { faqInfluencer } from "@/lib/faqData";
 import React from "react";
 
 export const metadata = {
-    title: "Best Influencer Marketing Company & Agency  in Canada",
+    title: "Best Influencer Marketing Company & Agency  in dubai",
     description:
-        "Looking for the best influencer marketing agency in Canada? Digital Cappuccino is the best influencer marketing company in Canada. We synthesize marketing programs and merge techniques to reach your goals.",
+        "Looking for the best influencer marketing agency in dubai? Digital Cappuccino is the best influencer marketing company in dubai. We synthesize marketing programs and merge techniques to reach your goals.",
     keywords:
         "influencer marketing, influencer agency, influencer marketing platform, influencer marketing agencies, best influencer marketing platform, micro influencer agency, influencer management, influencer marketing companies, social media influencer agency, find an influencer, social media influencer marketing, micro influencer",
     verification: {

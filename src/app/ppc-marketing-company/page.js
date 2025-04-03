@@ -8,9 +8,9 @@ import { faqPpc } from "@/lib/faqData";
 import React from "react";
 
 export const metadata = {
-    title: "PPC Company & Agency in Canada |  PPC Services in Canada",
+    title: "PPC Company & Agency in dubai |  PPC Services in dubai",
     description:
-        "Digital Cappuccino is the best PPC company & agency in Canada. We offer the affordable PPC services and synthesize marketing programs and merge techniques to reach your goals.",
+        "Digital Cappuccino is the best PPC company & agency in dubai. We offer the affordable PPC services and synthesize marketing programs and merge techniques to reach your goals.",
     keywords:
         "pay per click advertising, ppc marketing, ppc agency, ppc company, best ppc agency, google ppc campaigns, ppc advertising, ppc specialist, google ppc advertising, ppc management services, ppc consultant",
     verification: {

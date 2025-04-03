@@ -8,11 +8,11 @@ import { faqDigital, faqSocialMedia } from "@/lib/faqData";
 import React from "react";
 
 export const metadata = {
-    title: "Social Media Marketing Agency in Canada | SMM Services",
+    title: "Social Media Marketing Agency in dubai | SMM Services",
     description:
-        "Looking for a Social Media Marketing company & Agency in Canada? Digital Cappuccino is the best social media marketing Company in Canada. We offer professional social media marketing services and marketing programs to reach your goals.",
+        "Looking for a Social Media Marketing company & Agency in dubai? Digital Cappuccino is the best social media marketing Company in dubai. We offer professional social media marketing services and marketing programs to reach your goals.",
     keywords:
-        "social media marketing canada, social media marketing agency in canada, social media marketing toronto, social media marketing vancouver, social media marketing, social media marketing agency, social media agency, social media advertising, social media management companies, social media consultant, social media marketing services",
+        "social media marketing dubai, social media marketing agency in dubai, social media marketing toronto, social media marketing vancouver, social media marketing, social media marketing agency, social media agency, social media advertising, social media management companies, social media consultant, social media marketing services",
     verification: {
         google: "bUnGdZ9PTMjlg79GOjeKDVDEapQ9UrcLSyDVKOmTwK4",
     },

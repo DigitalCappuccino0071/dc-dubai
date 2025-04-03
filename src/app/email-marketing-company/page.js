@@ -8,9 +8,9 @@ import { faqEmail } from "@/lib/faqData";
 import React from "react";
 
 export const metadata = {
-    title: "Best Email Marketing Company in Canada - Digital Cappuccino",
+    title: "Best Email Marketing Company in dubai - Digital Cappuccino",
     description:
-        "Are you looking for the best email marketing company in Canada? Digital Cappuccino is here to provide you with all the solutions.",
+        "Are you looking for the best email marketing company in dubai? Digital Cappuccino is here to provide you with all the solutions.",
     keywords: "",
     verification: {
         google: "bUnGdZ9PTMjlg79GOjeKDVDEapQ9UrcLSyDVKOmTwK4",

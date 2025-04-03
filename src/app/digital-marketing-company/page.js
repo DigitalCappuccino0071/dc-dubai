@@ -8,9 +8,9 @@ import { faqDigital } from "@/lib/faqData";
 import React from "react";
 
 export const metadata = {
-    title: "Best Digital Marketing Agency & Company in Canada - Digital Cappuccino",
+    title: "Best Digital Marketing Agency & Company in dubai - Digital Cappuccino",
     description:
-        "Digital Cappuccino offers the best digital marketing services in Canada, it's known as one of the best Digital Marketing Agency & Company in Canada. CONTACT US NOW",
+        "Digital Cappuccino offers the best digital marketing services in dubai, it's known as one of the best Digital Marketing Agency & Company in dubai. CONTACT US NOW",
     keywords:
         "Digital Marketing Agency, digital marketing company, online advertising, digital marketing services, internet marketing, digital marketing strategy, marketing company for small business, digital marketing specialist, best digital marketing agencies, best digital marketing companies ,digital marketing agency website",
     verification: {

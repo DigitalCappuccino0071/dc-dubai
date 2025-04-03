@@ -11,9 +11,9 @@ const roboto = Poppins({
     weight: ["200", "300", "400", "500", "700"],
 });
 export const metadata = {
-    title: "Digital Marketing Agency in Canada - Digital Cappuccino",
+    title: "Digital Marketing Agency in dubai - Digital Cappuccino",
     description:
-        "Digital Cappuccino is the best marketing agency in Canada. We synthesize marketing programs and merge techniques to reach your goals.",
+        "Digital Cappuccino is the best marketing agency in dubai. We synthesize marketing programs and merge techniques to reach your goals.",
     keywords:
         "marketing agency, digital marketing agency, online marketing agency, advertising agency, seo marketing, digital marketing company, marketing companies, branding agency, marketing agency near me, ad agency, advertising company",
     verification: {

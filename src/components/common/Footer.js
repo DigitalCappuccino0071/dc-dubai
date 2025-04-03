@@ -46,7 +46,7 @@ const Footer = () => {
                         <p className="text-base text-black text-justify  md:tracking-tight  tracking-tighter  md:leading-relaxed ">
                             From Strategy to Execution, Digital Cappuccino
                             Delivers Exceptional Results — Your Go-To Digital
-                            Marketing Specialists in Canada{" "}
+                            Marketing Specialists in dubai{" "}
                         </p>
 
                         <div>
@@ -139,11 +139,9 @@ const Footer = () => {
                                 <h2 className="text-xl font-semibold text-black capitalize ">
                                     <FaPhoneAlt />
                                 </h2>
-                                <Link href="tel:+1 (825) 889-7071">
+                                <Link href="tel:9910190071">
                                     <div className="text-base text-black  mt-1 flex items-center">
-                                        <span className="">
-                                            +1 (825) 889-7071
-                                        </span>
+                                        <span className="">9910190071</span>
                                     </div>
                                 </Link>
                             </div>
@@ -167,7 +165,7 @@ const Footer = () => {
                                     <div className="text-base text-black  mt-1 flex items-center">
                                         <span className="">
                                             9131 39 Ave NW Unit # 204, Edmonton,
-                                            AB T6E 5Y2, Canada
+                                            AB T6E 5Y2, dubai
                                         </span>
                                     </div>
                                 </Link>

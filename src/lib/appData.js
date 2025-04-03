@@ -65,7 +65,7 @@ export const servicesDigital = [
         id: 5,
         image: "/common/digi5.png",
         name: "Graphic design",
-        desc: "Digital Cappuccino, a distinguished company in Canada, uses striking visuals to turn heads and ignite audience engagement. We offer everything you need for a successful online presence, combining expert SEO optimization, strategic content marketing, and mastery of social media. Let us help you forge strong connections and achieve successful brand outreach – we'll be your trusted partner on the path to digital success.",
+        desc: "Digital Cappuccino, a distinguished company in dubai, uses striking visuals to turn heads and ignite audience engagement. We offer everything you need for a successful online presence, combining expert SEO optimization, strategic content marketing, and mastery of social media. Let us help you forge strong connections and achieve successful brand outreach – we'll be your trusted partner on the path to digital success.",
     },
     {
         id: 6,
